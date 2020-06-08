@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@asimovdev/asimovjs@=1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.16.tgz#2c30a7663a8b4e2f7c0c0d764765a3a00b36056f"
-  integrity sha512-qzJEbEBWGx6cPaW18EDRkyaPeUDIiXoDZrG6Ty+wYMOK8xvvba6o7+QDDA9TbL5/xW6ODUBbaKQT27RicpSdjQ==
+"@asimovdev/asimovjs@=1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.17.tgz#7db8599f149c63ed79f97a34da7b8c51abbf7707"
+  integrity sha512-f2Hgz5yjpjvzuFhUe8Ob28Wxho/4Dy7CBrJcdncNjLY1Z1KE1WDp4gtpelCsu3CLbO/pCNxVM7pPn+fqR3PX8w==
   dependencies:
     "@types/es6-promise" "^3.3.0"
     await-to-js "^2.1.1"
@@ -9795,9 +9795,9 @@ websocket-driver@>=0.5.1, websocket-driver@^0.7.0:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whet.extend@~0.9.9:
   version "0.9.9"
