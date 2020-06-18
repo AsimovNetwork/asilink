@@ -59,9 +59,6 @@ async function getAssetsInfo(totalAssets) {
     let activeWltId = await Storage.get("activeWltId");
     let addrs = walletAddrs[activeWltId];
     let caller = addrs[0][0].address;
-    // let contractAddrs = await chain.getcontractaddressesbyassets([
-    //   newAssets
-    // ])
 
     const allAssetsInfo = await chain.getAssetsInfo([newAssets]);
     for (let i = 0, len = newAssets.length; i < len; i++) {
@@ -71,7 +68,7 @@ async function getAssetsInfo(totalAssets) {
       let abiStr = JSON.stringify(CONSTANT.ASSETINFO_ABI);
       let data = txHelper.encodeCallData(CONSTANT.ASSETINFO_ABI[0], [organizationId,assetIndex]);
 
-      let [res, err] = await to(chain.callreadonlyfunction([caller, REGISTER_CENTER, data, CONSTANT.ASSETINFO_ABI_NAME, abiStr]));
+      let [res, err] = await to(chain.callreadonlyfunction([caller, CONSTANT.REGISTER_CENTER, data, CONSTANT.ASSETINFO_ABI_NAME, abiStr]));
 
       if (err) {
         if (allAssetsInfo[i]) {
@@ -86,7 +83,6 @@ async function getAssetsInfo(totalAssets) {
             unit: allAssetsInfo[i].symbol,
             balance: 0,
             totalAmount: ''
-            //issueAddress: ''
           }
 
           allAssetsInfo[i].asset = asset
@@ -102,7 +98,6 @@ async function getAssetsInfo(totalAssets) {
             unit: 'UNKNOWN',
             balance: 0,
             totalAmount: ''
-            //issueAddress: ''
           }
           console.log('asset ' + asset + ' has no detail info')
         }
@@ -120,7 +115,6 @@ async function getAssetsInfo(totalAssets) {
             unit: res[2],
             balance: 0,
             totalAmount: res[4]
-            //issueAddress: contractAddrs[i]
           }
         } else {
           console.log('asset ' + asset + ' has no detail info')

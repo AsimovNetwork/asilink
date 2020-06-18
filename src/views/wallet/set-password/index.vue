@@ -61,6 +61,7 @@ export default {
         this.errorMsg(this.$t("common_input_ps"));
         return;
       }
+
       let reg = CONSTANT.PASSWORD_REG;
       if (!reg.test(this.password)) {
         this.errorMsg(this.$t("password_limit"));
