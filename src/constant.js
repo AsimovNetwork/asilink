@@ -52,12 +52,12 @@ export const CONSTANT = {
         zh: "chinese_simplified"
     },
     DEFAULT_NETWORK: {
-        color: '#02BA3D',
+        color: '#CDCDCD',
         value: 'work',
         name: 'Work'
     },
     NETWORKS: [{
-        color: '#02BA3D',
+        color: '#CDCDCD',
         value: 'work',
         name: 'Work Network'
     }, {
@@ -66,8 +66,12 @@ export const CONSTANT = {
         name: 'Tech Network'
     }, {
         color: '#FF8200',
-        value: 'testnet',
+        value: 'pro',
         name: 'Test Network'
+    },{
+        color: '#02BA3D',
+        value:'network',
+        name:'Main Network'
     }],
     PASSWORD_REG: /^[A-Za-z0-9`~!@#$%^&*()_\-+={}\[\]\\|:;"'<>,.?/]{8,}$/,
     ADDRESS_REG: /^0x[a-fA-F0-9]{42}$/,

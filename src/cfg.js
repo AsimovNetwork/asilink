@@ -4,14 +4,22 @@ var cfg = {
   RateDomain: 'http://webforex.hermes.hexun.com',
   chainRPC: 'http://127.0.0.1:8545',
   activeURL: '*',
+  //branch
   work: {
     rpc: 'https://dev-rpc.asimov.work/rpc8545/'
   },
+
+  //develop
   tech: {
     rpc: 'https://dev-rpc.asimov.tech/rpc8545/'
   },
-  testnet: {
-    rpc: 'https://test-rpc.asimov.network'
+  //test net
+  pro: {
+    rpc: 'https://test-rpc.asimov.pro'
+  },
+  //main net
+  network:{
+    rpc:'https://test-rpc.asimov.network'
   }
 }
 if (env == 'production') {
