@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@asimovdev/asimovjs@=1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.16.tgz#2c30a7663a8b4e2f7c0c0d764765a3a00b36056f"
-  integrity sha512-qzJEbEBWGx6cPaW18EDRkyaPeUDIiXoDZrG6Ty+wYMOK8xvvba6o7+QDDA9TbL5/xW6ODUBbaKQT27RicpSdjQ==
+"@asimovdev/asimovjs@=1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.17.tgz#7db8599f149c63ed79f97a34da7b8c51abbf7707"
+  integrity sha512-f2Hgz5yjpjvzuFhUe8Ob28Wxho/4Dy7CBrJcdncNjLY1Z1KE1WDp4gtpelCsu3CLbO/pCNxVM7pPn+fqR3PX8w==
   dependencies:
     "@types/es6-promise" "^3.3.0"
     await-to-js "^2.1.1"
@@ -4909,9 +4909,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inline-process-browser@^1.0.0:
   version "1.0.0"
