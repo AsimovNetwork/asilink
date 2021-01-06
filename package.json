@@ -7,7 +7,7 @@
   "private": false,
   "dependencies": {
     "@asimovdev/asimovjs": "=1.1.17",
-    "axios": "^0.17.0",
+    "axios": "^0.21.1",
     "bignumber.js": "^8.0.2",
     "bip39": "^2.5.0",
     "bitcore-lib": "^8.5.1",
