@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@asimovdev/asimovjs@=1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.16.tgz#2c30a7663a8b4e2f7c0c0d764765a3a00b36056f"
-  integrity sha512-qzJEbEBWGx6cPaW18EDRkyaPeUDIiXoDZrG6Ty+wYMOK8xvvba6o7+QDDA9TbL5/xW6ODUBbaKQT27RicpSdjQ==
+"@asimovdev/asimovjs@=1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.17.tgz#7db8599f149c63ed79f97a34da7b8c51abbf7707"
+  integrity sha512-f2Hgz5yjpjvzuFhUe8Ob28Wxho/4Dy7CBrJcdncNjLY1Z1KE1WDp4gtpelCsu3CLbO/pCNxVM7pPn+fqR3PX8w==
   dependencies:
     "@types/es6-promise" "^3.3.0"
     await-to-js "^2.1.1"
@@ -9935,9 +9935,9 @@ xmlhttprequest@1.8.0:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 y18n@^4.0.0:
   version "4.0.0"
