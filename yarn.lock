@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@asimovdev/asimovjs@=1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.16.tgz#2c30a7663a8b4e2f7c0c0d764765a3a00b36056f"
-  integrity sha512-qzJEbEBWGx6cPaW18EDRkyaPeUDIiXoDZrG6Ty+wYMOK8xvvba6o7+QDDA9TbL5/xW6ODUBbaKQT27RicpSdjQ==
+"@asimovdev/asimovjs@=1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.17.tgz#7db8599f149c63ed79f97a34da7b8c51abbf7707"
+  integrity sha512-f2Hgz5yjpjvzuFhUe8Ob28Wxho/4Dy7CBrJcdncNjLY1Z1KE1WDp4gtpelCsu3CLbO/pCNxVM7pPn+fqR3PX8w==
   dependencies:
     "@types/es6-promise" "^3.3.0"
     await-to-js "^2.1.1"
@@ -1459,6 +1459,11 @@ bignumber.js@^8.0.2:
   version "8.1.1"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-8.1.1.tgz#4b072ae5aea9c20f6730e4e5d529df1271c4d885"
   integrity sha512-QD46ppGintwPGuL1KqmwhR0O+N2cZUg8JG/VzwI2e28sM9TqHjQB10lI4QAaMHVbLzwVLLAwEglpKPViWX+5NQ==
+
+bignumber.js@^9.0.0:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
+  integrity sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==
 
 binary-extensions@^1.0.0:
   version "1.13.1"
@@ -5393,6 +5398,13 @@ json-bigint@^0.3.0:
   integrity sha1-DM2RLEuCcNBfBW+9E4FLU9OCWx4=
   dependencies:
     bignumber.js "^7.0.0"
+
+json-bigint@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/json-bigint/-/json-bigint-1.0.0.tgz#ae547823ac0cad8398667f8cd9ef4730f5b01ff1"
+  integrity sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==
+  dependencies:
+    bignumber.js "^9.0.0"
 
 json-loader@^0.5.4:
   version "0.5.7"
