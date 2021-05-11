@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@asimovdev/asimovjs@=1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.16.tgz#2c30a7663a8b4e2f7c0c0d764765a3a00b36056f"
-  integrity sha512-qzJEbEBWGx6cPaW18EDRkyaPeUDIiXoDZrG6Ty+wYMOK8xvvba6o7+QDDA9TbL5/xW6ODUBbaKQT27RicpSdjQ==
+"@asimovdev/asimovjs@=1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@asimovdev/asimovjs/-/asimovjs-1.1.17.tgz#7db8599f149c63ed79f97a34da7b8c51abbf7707"
+  integrity sha512-f2Hgz5yjpjvzuFhUe8Ob28Wxho/4Dy7CBrJcdncNjLY1Z1KE1WDp4gtpelCsu3CLbO/pCNxVM7pPn+fqR3PX8w==
   dependencies:
     "@types/es6-promise" "^3.3.0"
     await-to-js "^2.1.1"
@@ -5679,10 +5679,15 @@ lodash@=3.10.1:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
   integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
-lodash@=4.17.15, lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.8.0, lodash@~4.17.10:
+lodash@=4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.21, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.8.0, lodash@~4.17.10:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loglevel@^1.4.1:
   version "1.6.3"
